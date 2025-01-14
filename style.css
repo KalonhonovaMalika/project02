@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    color: white;
+    background-color: blue;
+    align-items: center;
+    gap: 90px;
+    list-style: none;
+    justify-content: center;
+    width: 54%;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+   gap: 93px;
+
+    justify-content: center;
+}
+
+
+h3{
+    color: white;
+    background-color: blue;  
+    padding: 10px;
+}
+.final{
+    background-color: blue;
+    padding: 10px;
+    height: 100%;
+}
+h2{
+    color: blue;
+    padding: 10px;
+}
+.white{
+    color: white;
+}
