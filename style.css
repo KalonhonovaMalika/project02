@@ -2,16 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
+    width: 100%;
+}
+.head 
+{
+    color: white;
 }
 ul{
     display: flex;
     color: white;
-    background-color: blue;
+
     align-items: center;
     gap: 90px;
     list-style: none;
     justify-content: center;
-    width: 54%;
+
     
 }
 a{
@@ -19,27 +25,59 @@ a{
     text-decoration: none;
 }
 .container{
+  
     display: flex;
-   gap: 93px;
-
-    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
 }
+
 
 
 h3{
     color: white;
     background-color: blue;  
     padding: 10px;
+
 }
-.final{
-    background-color: blue;
-    padding: 10px;
+.center{
+ 
     height: 100%;
+
 }
 h2{
     color: blue;
     padding: 10px;
 }
-.white{
+
+.ending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+    height: 15vh;
+}
+.end{
     color: white;
 }
+
+@media ( max-width: 1200px) {
+.column{
+    flex: 1 1 30%;
+}
+}
+@media ( max-width: 900px) {
+    .column{
+        flex: 1 1 45%;
+    }
+    }
+    @media ( max-width: 600px) {
+        .column{
+            flex: 1 1 100%;
+        }
+        }
+
